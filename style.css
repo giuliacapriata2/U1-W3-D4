@@ -1,0 +1,35 @@
+#tombola-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 60px);
+  grid-gap: 5px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.tombola-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.tombola-cell h3 {
+  margin: 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #909497;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
